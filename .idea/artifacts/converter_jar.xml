@@ -2,9 +2,9 @@
   <artifact type="jar" build-on-make="true" name="converter:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/converter_jar</output-path>
     <root id="archive" name="converter.jar">
-      <element id="module-output" name="converter" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/Querz/NBT/6.1/NBT-6.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.10/gson-2.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/Querz/NBT/6.1/NBT-6.1.jar" path-in-jar="/" />
+      <element id="module-output" name="converter" />
     </root>
   </artifact>
 </component>
